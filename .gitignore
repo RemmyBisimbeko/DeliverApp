@@ -59,15 +59,15 @@ buck-out/
 /ios/Pods/
 
 # More files
-ios/brilliantmindsapp/Images.xcassets
+ios/DeliverApp/Images.xcassets
 android/app/build/outputs/apk
 __tests__
 android/app/build
 android/build
-ios/brilliantmindsapp-tvOS
-ios/brilliantmindsapp-tvOSTests
-ios/brilliantmindsapp.xcworkspace
-ios/brilliantmindsappTests
+ios/DeliverApp-tvOS
+ios/DeliverApp-tvOSTests
+ios/DeliverApp.xcworkspace
+ios/DeliverAppTests
 ios/Pods
 babel.config.js
 metro.config.js
