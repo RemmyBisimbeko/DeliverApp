@@ -1,0 +1,14 @@
+com/deliverapp/MainActivity.java
+ com.deliverapp.MainActivity
+com/deliverapp/BuildConfig.java
+ com.deliverapp.BuildConfig
+com/deliverapp/ReactNativeFlipper.java
+ com.deliverapp.ReactNativeFlipper
+ com.deliverapp.ReactNativeFlipper$1
+ com.deliverapp.ReactNativeFlipper$2
+ com.deliverapp.ReactNativeFlipper$2$1
+com/deliverapp/MainApplication.java
+ com.deliverapp.MainApplication
+ com.deliverapp.MainApplication$1
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList
