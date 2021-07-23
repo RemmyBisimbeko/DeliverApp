@@ -1,0 +1,36 @@
+Arguments: 
+  /usr/local/Cellar/node/16.2.0/bin/node /usr/local/Cellar/yarn/1.22.10/libexec/bin/yarn.js add react-native --exact
+
+PATH: 
+  /Users/remmy/Documents/Projects/DeliverApp/node_modules/.bin:/Users/remmy/Documents/Projects/node_modules/.bin:/Users/remmy/Documents/node_modules/.bin:/Users/remmy/node_modules/.bin:/Users/node_modules/.bin:/node_modules/.bin:/usr/local/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin:/usr/local/bin:/Users/remmy/.gem/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/remmy/Library/Android/sdk/emulator:/Users/remmy/Library/Android/sdk/tools:/Users/remmy/Library/Android/sdk/tools/bin:/Users/remmy/Library/Android/sdk/platform-tools
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  16.2.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: connect ENETUNREACH 104.16.25.35:443 - Local (0.0.0.0:62779)
+      at internalConnect (node:net:905:16)
+      at defaultTriggerAsyncIdScope (node:internal/async_hooks:431:18)
+      at emitLookup (node:net:1051:9)
+      at /usr/local/Cellar/yarn/1.22.10/libexec/lib/cli.js:107524:28
+      at /usr/local/Cellar/yarn/1.22.10/libexec/lib/cli.js:107433:13
+      at RawTask.module.exports.RawTask.call (/usr/local/Cellar/yarn/1.22.10/libexec/lib/cli.js:83614:19)
+      at flush (/usr/local/Cellar/yarn/1.22.10/libexec/lib/cli.js:83696:29)
+      at processTicksAndRejections (node:internal/process/task_queues:78:11)
+      at runNextTicks (node:internal/process/task_queues:65:3)
+      at processImmediate (node:internal/timers:437:9)
+
+npm manifest: 
+  {"name":"DeliverApp","version":"0.0.1","private":true,"scripts":{"start":"node node_modules/react-native/local-cli/cli.js start"}}
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
